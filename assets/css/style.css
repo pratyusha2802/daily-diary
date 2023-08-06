@@ -79,6 +79,17 @@ body {
   align-items: center;
 }
 
+.features__card--all {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+@media screen and (min-width: 1020px) {
+  .features__card--all {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
 .features__text {
   font-family: "Delius Swash Caps", cursive;
   font-size: 1.5vh;
@@ -100,28 +111,24 @@ body {
   justify-items: center;
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 20px;
-  /* transition: box-shadow 0.3s; */
 }
 
 .features__card--even:hover {
-  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.9);
 }
-
 .features__card--odd:hover {
-  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.9);
 }
 
 .features__card--even {
   display: grid;
   align-items: center;
   grid-template-columns: 1fr 4fr;
-  flex-direction: column;
   margin: 10px;
   padding: 15px;
   justify-items: center;
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 20px;
-  /* transition: box-shadow 0.3s; */
 }
 
 .features__card--text {
@@ -185,7 +192,8 @@ body {
 }
 
 .FAQ__ques:hover {
-  height: 250px;
+  height: 235px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.9);
 }
 
 .FAQ__ques--span {
@@ -215,6 +223,10 @@ body {
   padding: 10px;
   border: none;
   border-radius: 10px;
+}
+
+.FAQ_Reach-out button:hover {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.9);
 }
 
 /* Join us */
@@ -253,6 +265,10 @@ body {
 .joinus__buttons {
   margin: 10px;
   border: none;
+}
+
+.joinus__signup--btn:hover {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.9);
 }
 
 .joinus__signup--btn {
@@ -296,11 +312,6 @@ body {
   color: #aaa;
 }
 
-.footer__about--links:visited {
-  text-decoration: none;
-  color: rgba(255, 255, 255, 0.5);
-}
-
 .footer__help {
   font-size: 1.5vh;
   display: flex;
@@ -319,11 +330,6 @@ body {
   color: #aaa;
 }
 
-.footer__help--links:visited {
-  text-decoration: none;
-  color: rgba(255, 255, 255, 0.5);
-}
-
 .footer__social {
   display: flex;
   flex-direction: row;
@@ -340,10 +346,6 @@ body {
 .footer__social--links:hover {
   text-decoration: none;
   color: #aaa;
-}
-
-.footer__social--links:visited {
-  color: rgba(255, 255, 255, 0.5);
 }
 
 .footer__span {
