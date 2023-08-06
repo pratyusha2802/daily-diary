@@ -210,7 +210,7 @@ body {
 .FAQ_Reach-out button {
   font-family: "Space Mono", monospace;
   height: 5vh;
-  padding: 2px;
+  padding: 10px;
   border: none;
   border-radius: 10px;
 }
@@ -260,14 +260,9 @@ body {
   border-radius: 10px;
   background-color: #fff;
   height: 5vh;
-  padding: 2px;
+  padding: 10px;
   cursor: pointer;
   font-family: "Space Mono", monospace;
-}
-
-.joinus__learnmore--btn:hover,
-.joinus__signup--btn:hover {
-  background-color: #aaa;
 }
 
 /* Footer */
@@ -289,7 +284,7 @@ body {
 }
 
 .footer__about--links {
-  font-size: 2vh;
+  font-size: 1.5vh;
   text-decoration: none;
   color: #fff;
   font-family: "Space Mono", monospace;
@@ -306,7 +301,7 @@ body {
 }
 
 .footer__help {
-  font-size: 2vh;
+  font-size: 1.5vh;
   display: flex;
   flex-direction: column;
   font-family: "Space Mono", monospace;
@@ -334,7 +329,7 @@ body {
 }
 
 .footer__social--links {
-  font-size: 2vh;
+  font-size: 2.5vh;
   padding: 10px;
   cursor: pointer;
   text-decoration: none;
@@ -356,7 +351,7 @@ body {
 
 .footer__cr {
   color: rgba(255, 255, 255, 0.2);
-  font-size: 2vh;
+  font-size: 1.5vh;
   display: flex;
   justify-content: center;
   padding: 20px 0;
