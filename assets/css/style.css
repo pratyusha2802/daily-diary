@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Glass+Antiqua&family=Space+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap");
 /* 
 .grid {
   width: 90%;
@@ -44,14 +44,13 @@ body {
 }
 
 .about__span {
-  font-family: "Glass Antiqua", cursive;
+  font-family: "Delius Swash Caps", cursive;
   font-size: 5vh;
-  text-transform: uppercase;
   text-align: center;
 }
 
 .about__span--small {
-  font-family: "Glass Antiqua", cursive;
+  font-family: "Delius Swash Caps", cursive;
   font-size: 2.5vh;
   text-transform: lowercase;
   margin: 0;
@@ -61,7 +60,7 @@ body {
 
 .about__p {
   display: flex;
-  font-family: "Space Mono", monospace;
+  font-family: "Delius Swash Caps", cursive;
   font-size: 1.5vh;
 }
 
@@ -81,13 +80,13 @@ body {
 }
 
 .features__text {
-  font-family: "Space Mono", monospace;
+  font-family: "Delius Swash Caps", cursive;
   font-size: 1.5vh;
   text-align: center;
 }
 
 .features__span {
-  font-family: "Glass Antiqua", cursive;
+  font-family: "Delius Swash Caps", cursive;
   font-size: 5vh;
 }
 
@@ -130,14 +129,14 @@ body {
 }
 
 .features__card--span {
-  font-family: "Glass Antiqua", cursive;
+  font-family: "Delius Swash Caps", cursive;
   font-size: 3vh;
   margin: 10px 0;
   text-align: center;
 }
 
 .features__card--p {
-  font-family: "Space Mono", monospace;
+  font-family: "Delius Swash Caps", cursive;
   font-size: 1.5vh;
 }
 
@@ -158,8 +157,7 @@ body {
 }
 
 .FAQ__span {
-  text-transform: uppercase;
-  font-family: "Glass Antiqua", cursive;
+  font-family: "Delius Swash Caps", cursive;
   font-size: 5vh;
   margin: 10px;
 }
@@ -186,15 +184,19 @@ body {
   border-radius: 20px;
 }
 
+.FAQ__ques:hover {
+  height: 250px;
+}
+
 .FAQ__ques--span {
   font-size: 2vh;
-  font-family: "Space Mono", monospace;
+  font-family: "Delius Swash Caps", cursive;
   text-align: center;
 }
 
 .FAQ__ques--p {
   font-size: 0.8rem;
-  font-family: "Space Mono", monospace;
+  font-family: "Delius Swash Caps", cursive;
   text-align: center;
 }
 
@@ -203,12 +205,12 @@ body {
 }
 
 .FAQ_Reach-out p {
-  font-family: "Space Mono", monospace;
+  font-family: "Delius Swash Caps", cursive;
   font-size: 2vh;
 }
 
 .FAQ_Reach-out button {
-  font-family: "Space Mono", monospace;
+  font-family: "Delius Swash Caps", cursive;
   height: 5vh;
   padding: 10px;
   border: none;
@@ -234,8 +236,7 @@ body {
 
 .joinus__banner--h {
   font-size: 5vh;
-  font-family: "Glass Antiqua", cursive;
-  text-transform: uppercase;
+  font-family: "Delius Swash Caps", cursive;
   padding: 10px;
   width: 50%;
   text-align: center;
@@ -244,7 +245,7 @@ body {
 .joinus__banner--text {
   padding: 10px;
   justify-items: center;
-  font-family: "Space Mono", monospace;
+  font-family: "Delius Swash Caps", cursive;
   text-align: center;
   font-size: 2vh;
 }
@@ -262,7 +263,7 @@ body {
   height: 5vh;
   padding: 10px;
   cursor: pointer;
-  font-family: "Space Mono", monospace;
+  font-family: "Delius Swash Caps", cursive;
 }
 
 /* Footer */
@@ -280,14 +281,14 @@ body {
 .footer__about {
   display: flex;
   flex-direction: column;
-  font-family: "Space Mono", monospace;
+  font-family: "Delius Swash Caps", cursive;
 }
 
 .footer__about--links {
   font-size: 1.5vh;
   text-decoration: none;
   color: #fff;
-  font-family: "Space Mono", monospace;
+  font-family: "Delius Swash Caps", cursive;
 }
 
 .footer__about--links:hover {
@@ -304,13 +305,13 @@ body {
   font-size: 1.5vh;
   display: flex;
   flex-direction: column;
-  font-family: "Space Mono", monospace;
+  font-family: "Delius Swash Caps", cursive;
 }
 
 .footer__help--links {
   text-decoration: none;
   color: #fff;
-  font-family: "Space Mono", monospace;
+  font-family: "Delius Swash Caps", cursive;
 }
 
 .footer__help--links:hover {
