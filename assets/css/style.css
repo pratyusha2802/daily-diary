@@ -26,28 +26,13 @@ body {
   display: flex;
   align-items: center;
   height: 50vh;
+  max-height: 25vh;
   flex-direction: column;
-}
-
-.header__banner {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.header__span {
-  position: relative;
-  top: -6.5rem;
-  text-transform: uppercase;
-  font-size: 4rem;
-  margin: 0;
-  color: #fff;
-  font-family: "Glass Antiqua", cursive;
 }
 
 .header__svg {
-  max-width: 750px;
   width: 100vh;
+  max-width: 50vh;
 }
 
 /* About */
@@ -60,14 +45,14 @@ body {
 
 .about__span {
   font-family: "Glass Antiqua", cursive;
-  font-size: 7.5vh;
+  font-size: 5vh;
   text-transform: uppercase;
   text-align: center;
 }
 
 .about__span--small {
   font-family: "Glass Antiqua", cursive;
-  font-size: 3.5vh;
+  font-size: 2.5vh;
   text-transform: lowercase;
   margin: 0;
   color: rgba(255, 255, 255, 0.5);
@@ -77,7 +62,7 @@ body {
 .about__p {
   display: flex;
   font-family: "Space Mono", monospace;
-  font-size: 2vh;
+  font-size: 1.5vh;
 }
 
 .about__p--left,
@@ -103,7 +88,7 @@ body {
 
 .features__span {
   font-family: "Glass Antiqua", cursive;
-  font-size: 7.5vh;
+  font-size: 5vh;
 }
 
 .features__card--odd {
@@ -146,14 +131,14 @@ body {
 
 .features__card--span {
   font-family: "Glass Antiqua", cursive;
-  font-size: 3.5vh;
+  font-size: 3vh;
   margin: 10px 0;
   text-align: center;
 }
 
 .features__card--p {
   font-family: "Space Mono", monospace;
-  font-size: 1.75vh;
+  font-size: 1.5vh;
 }
 
 .features__card--img {
@@ -175,7 +160,7 @@ body {
 .FAQ__span {
   text-transform: uppercase;
   font-family: "Glass Antiqua", cursive;
-  font-size: 3rem;
+  font-size: 5vh;
   margin: 10px;
 }
 
@@ -202,7 +187,7 @@ body {
 }
 
 .FAQ__ques--span {
-  font-size: 1.25rem;
+  font-size: 2vh;
   font-family: "Space Mono", monospace;
   text-align: center;
 }
@@ -219,12 +204,15 @@ body {
 
 .FAQ_Reach-out p {
   font-family: "Space Mono", monospace;
+  font-size: 2vh;
 }
 
 .FAQ_Reach-out button {
   font-family: "Space Mono", monospace;
   height: 5vh;
-  width: 10vw;
+  padding: 2px;
+  border: none;
+  border-radius: 10px;
 }
 
 /* Join us */
@@ -240,8 +228,8 @@ body {
 }
 
 .joinus__banner--img {
-  height: 11vw;
-  width: 11vw;
+  height: 10vw;
+  width: 10vw;
 }
 
 .joinus__banner--h {
@@ -269,10 +257,10 @@ body {
 .joinus__signup--btn {
   margin: 10px;
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
   background-color: #fff;
   height: 5vh;
-  width: 10vw;
+  padding: 2px;
   cursor: pointer;
   font-family: "Space Mono", monospace;
 }
