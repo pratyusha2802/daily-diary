@@ -1,14 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap");
-/* 
-.grid {
-  width: 90%;
-  max-width: 80rem;
-  margin: 2rem auto;
-  display: grid;
-  grid-template-columns: repeat(3, minmax(100px, 1fr));
-  grid-gap: 1.5rem;
-  z-index: -1001;
-} */
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300&display=swap');
 
 body {
   background: rgb(46, 46, 51);
@@ -44,13 +34,13 @@ body {
 }
 
 .about__span {
-  font-family: "Delius Swash Caps", cursive;
+  font-family: 'Merienda', cursive;
   font-size: 5vh;
   text-align: center;
 }
 
 .about__span--small {
-  font-family: "Delius Swash Caps", cursive;
+  font-family: 'Merienda', cursive;
   font-size: 2.5vh;
   text-transform: lowercase;
   margin: 0;
@@ -60,7 +50,7 @@ body {
 
 .about__p {
   display: flex;
-  font-family: "Delius Swash Caps", cursive;
+  font-family: 'Merienda', cursive;
   font-size: 1.5vh;
 }
 
@@ -91,44 +81,43 @@ body {
 }
 
 .features__text {
-  font-family: "Delius Swash Caps", cursive;
+  font-family: 'Merienda', cursive;
   font-size: 1.5vh;
   text-align: center;
 }
 
 .features__span {
-  font-family: "Delius Swash Caps", cursive;
+  font-family: 'Merienda', cursive;
   font-size: 5vh;
 }
 
-.features__card--odd {
+.features__card {
   display: grid;
   align-items: center;
+  margin: 10px;
+  padding: 15px;
+  justify-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+}
+
+.card-odd {
   grid-template-columns: 4fr 1fr;
-  flex-direction: column;
-  margin: 10px;
-  padding: 15px;
-  justify-items: center;
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  border-radius: 20px;
 }
 
-.features__card--even:hover {
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.9);
-}
-.features__card--odd:hover {
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.9);
-}
-
-.features__card--even {
-  display: grid;
-  align-items: center;
+.card-even {
   grid-template-columns: 1fr 4fr;
-  margin: 10px;
-  padding: 15px;
-  justify-items: center;
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  border-radius: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+  .features__card {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.features__card:hover {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.9);
 }
 
 .features__card--text {
@@ -136,15 +125,16 @@ body {
 }
 
 .features__card--span {
-  font-family: "Delius Swash Caps", cursive;
+  font-family: 'Merienda', cursive;
   font-size: 3vh;
   margin: 10px 0;
   text-align: center;
 }
 
 .features__card--p {
-  font-family: "Delius Swash Caps", cursive;
+  font-family: 'Merienda', cursive;
   font-size: 1.5vh;
+  text-align: center;
 }
 
 .features__card--img {
@@ -164,9 +154,10 @@ body {
 }
 
 .FAQ__span {
-  font-family: "Delius Swash Caps", cursive;
+  font-family: 'Merienda', cursive;
   font-size: 5vh;
   margin: 10px;
+  text-align: center;
 }
 
 .FAQ__quescard--all {
@@ -197,13 +188,13 @@ body {
 
 .FAQ__ques--span {
   font-size: 2vh;
-  font-family: "Delius Swash Caps", cursive;
+  font-family: 'Merienda', cursive;
   text-align: center;
 }
 
 .FAQ__ques--p {
   font-size: 0.8rem;
-  font-family: "Delius Swash Caps", cursive;
+  font-family: 'Merienda', cursive;
   text-align: center;
 }
 
@@ -212,12 +203,12 @@ body {
 }
 
 .FAQ_Reach-out p {
-  font-family: "Delius Swash Caps", cursive;
+  font-family: 'Merienda', cursive;
   font-size: 2vh;
 }
 
 .FAQ_Reach-out button {
-  font-family: "Delius Swash Caps", cursive;
+  font-family: 'Merienda', cursive;
   height: 5vh;
   padding: 10px;
   border: none;
@@ -246,19 +237,26 @@ body {
 }
 
 .joinus__banner--h {
-  font-size: 5vh;
-  font-family: "Delius Swash Caps", cursive;
+  font-size: 4vh;
+  font-family: 'Merienda', cursive;
   padding: 10px;
   width: 50%;
   text-align: center;
 }
 
+@media only screen and (max-width: 768px) {
+  .joinus__banner--h {
+    font-size: 3vh;
+  }
+}
+
 .joinus__banner--text {
   padding: 10px;
   justify-items: center;
-  font-family: "Delius Swash Caps", cursive;
+  font-family: 'Merienda', cursive;
   text-align: center;
   font-size: 2vh;
+  color: rgba(255, 255, 255, 0.5)
 }
 
 .joinus__buttons {
@@ -278,7 +276,7 @@ body {
   height: 5vh;
   padding: 10px;
   cursor: pointer;
-  font-family: "Delius Swash Caps", cursive;
+  font-family: 'Merienda', cursive;
 }
 
 /* Footer */
@@ -296,14 +294,14 @@ body {
 .footer__about {
   display: flex;
   flex-direction: column;
-  font-family: "Delius Swash Caps", cursive;
+  font-family: 'Merienda', cursive;
 }
 
 .footer__about--links {
   font-size: 1.5vh;
   text-decoration: none;
   color: #fff;
-  font-family: "Delius Swash Caps", cursive;
+  font-family: 'Merienda', cursive;
 }
 
 .footer__about--links:hover {
@@ -315,13 +313,13 @@ body {
   font-size: 1.5vh;
   display: flex;
   flex-direction: column;
-  font-family: "Delius Swash Caps", cursive;
+  font-family: 'Merienda', cursive;
 }
 
 .footer__help--links {
   text-decoration: none;
   color: #fff;
-  font-family: "Delius Swash Caps", cursive;
+  font-family: 'Merienda', cursive;
 }
 
 .footer__help--links:hover {
